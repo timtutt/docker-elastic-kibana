@@ -8,4 +8,8 @@ To build the docker instance run
 docker build -t <name for image> .
 ```
 
-Use the shell script to run the docker instance. 
+#Running Container From Mac
+Use the shell script to run the docker instance so that ports are properly mapped
+```bash
+./start_container_mac.sh <docker-machine env name> <image name>
+```
